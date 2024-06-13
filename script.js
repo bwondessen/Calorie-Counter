@@ -50,8 +50,10 @@ function calculateCalories(e) {
     const budgetCalories = getCaloriesFromInputs([budgetNumberInput]);
 
     if (isError) {
-        return
+        return;
     }
+
+    const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
 }
 
 function getCaloriesFromInputs(list) {
