@@ -61,6 +61,7 @@ function calculateCalories(e) {
   <hr>
   <p>${budgetCalories} Calories Budgeted</p>
   <p>${consumedCalories} Calories Consumed</p>
+  <p>${remainingCalories} Calories Burned</p>
   `;
 }
 
