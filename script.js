@@ -64,7 +64,7 @@ function calculateCalories(e) {
   <p>${exerciseCalories} Calories Burned</p>
   `;
 
-    output.classList.remove("hide");
+    output.classList.remove('hide');
 }
 
 function getCaloriesFromInputs(list) {
@@ -85,3 +85,4 @@ function getCaloriesFromInputs(list) {
 }
 
 addEntryButton.addEventListener("click", addEntry);
+calorieCounter.addEventListener("submit", calculateCalories);
